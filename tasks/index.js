@@ -15,7 +15,7 @@ module.exports = function (grunt){
   }
 
   try {
-    istanbulPath = require.resolve('istanbul/lib/cli');
+    istanbulPath = require.resolve('babel-istanbul/lib/cli');
   } catch (e) {
     grunt.log.error('Missing istanbul peer dependency');
     return;
