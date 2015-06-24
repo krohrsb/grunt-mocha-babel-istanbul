@@ -5,17 +5,18 @@
   "peerDependencies": {
     "grunt": "0.4.x",
     "mocha": ">=1.x.x",
-    "istanbul": "0.x.x"
+    "babel-istanbul": "^0.2.5"
   },
   "repository"      : {
     "type": "git",
-    "url" : "git://github.com/pocesar/grunt-mocha-istanbul.git"
+    "url" : "git://github.com/nobleach/grunt-mocha-istanbul.git"
   },
   "keywords"        : [
     "grunt",
     "gruntplugin",
     "mocha",
     "istanbul",
+    "babel",
     "test",
     "coverage",
     "coveralls"
