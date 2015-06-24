@@ -9,7 +9,7 @@ Install
 
 1. Install it using `npm install grunt-mocha-babel-istanbul --save-dev`
 2. It needs `mocha`, `grunt` and `istanbul` to be installed locally on your project (aka, having them in your devDependencies)
-3. Call inside Gruntfile.js `grunt.loadNpmTasks('grunt-mocha-istanbul')`
+3. Call inside Gruntfile.js `grunt.loadNpmTasks('grunt-mocha-babel-istanbul')`
 
 Changes from 1.x
 ==============
