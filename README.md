@@ -1,8 +1,4 @@
-[![Dependency Status](https://david-dm.org/pocesar/grunt-mocha-istanbul.png?theme=shields.io)](https://david-dm.org/pocesar/grunt-mocha-istanbul)
-
-[![NPM](https://nodei.co/npm/grunt-mocha-istanbul.png?downloads=true&stars=true)](https://nodei.co/npm/grunt-mocha-istanbul/)
-
-grunt mocha istanbul task
+grunt mocha babel-istanbul task
 ==============
 
 [Mocha](http://visionmedia.github.com/mocha/) reporter to generate coverage report of [istanbul](http://gotwarlost.github.com/istanbul/) instrumented code, for grunt
@@ -11,7 +7,7 @@ This doesn't force you to use PhantomJS, or instrument code for server or client
 Install
 ==============
 
-1. Install it using `npm install grunt-mocha-istanbul --save-dev`
+1. Install it using `npm install grunt-mocha-babel-istanbul --save-dev`
 2. It needs `mocha`, `grunt` and `istanbul` to be installed locally on your project (aka, having them in your devDependencies)
 3. Call inside Gruntfile.js `grunt.loadNpmTasks('grunt-mocha-istanbul')`
 
@@ -86,7 +82,7 @@ module.exports = function(grunt){
         done();
     });
 
-    grunt.loadNpmTasks('grunt-mocha-istanbul');
+    grunt.loadNpmTasks('grunt-mocha-babel-istanbul');
 
     grunt.registerTask('coveralls', ['mocha_istanbul:coveralls']);
     grunt.registerTask('coverage', ['mocha_istanbul:coverage']);
