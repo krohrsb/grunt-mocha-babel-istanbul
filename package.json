@@ -4,8 +4,9 @@
     "description": "Almost config-free Istanbul code coverage reporter for Mocha usage in Grunt",
     "peerDependencies": {
         "grunt": "0.4.x",
-        "mocha": ">=1.x.x",
-        "babel-istanbul": "^0.2.5"
+        "mocha": ">=2.x.x",
+        "babel-istanbul": "^0.5.6",
+        "babel-core": "^6.1.4"
     },
     "repository": {
         "type": "git",
